@@ -5,7 +5,12 @@
     width: 50%;
 }
 
+.inline-parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 body{
     background-image: url(friendbkgrnd.png);
     background-size: cover;
+
 }
