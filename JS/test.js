@@ -46,6 +46,14 @@ function interpretText(){
         response = "I LOVE DANCING!"
     }else if (message.includes('title ix')){
         response = titleIX;
+    }else if (message.includes('sad') || message.includes('unhappy')){
+        response = level1Sad;
+    }else if (message.includes('hurt') || message.includes('pain') || message.includes('injured')){
+        response = studentHealthCenter;
+    }else if (message.includes('mental health') || message.includes('breakdown') ){
+        response = counselingAndPsy;
+    }else if (message.includes('stalking') || message.includes('domestic violence')){
+        response = cares;
     }else if ((message.includes('you') || message.includes('sleep') &&
         !(message.includes('i ') || message.includes('i\'m')))){
         response = 'Good night!';
