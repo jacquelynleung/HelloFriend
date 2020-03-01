@@ -18,18 +18,35 @@ function change() {
 }
 
 function makeDance(){
-    let message = document.getElementById('message').value;
+    document.getElementById('friend').src = "Images/dancer.gif";
+}
+
+function addText(message, who){
     let element = document.getElementById('messageHolder');
-    console.log(message);
-    if (message.toLowerCase().includes('dance')){
-        console.log("should dance");
-        document.getElementById('friend').src = "Images/dancer.gif";
-    } else{
-        document.getElementById('friend').src = "Images/ourfriend.png";
-    }
     let newMessage = document.createElement('p');
+    if (who === "you"){
+        newMessage.classList.add("yourText");
+    } else {
+        newMessage.classList.add("friendText");
+    }
     newMessage.textContent = message;
     element.appendChild(newMessage);
     element.scrollTop = element.scrollHeight;
     document.getElementById('message').value = "";
+}
+
+function interpretText(){
+    document.getElementById('friend').src = "Images/ourfriend.png";
+    let message = document.getElementById('message').value;
+    addText(message, "you");
+    message = message.toLowerCase();
+    let response = "Can you clarify that for me, friend?";
+    if (message.includes('dance') && !message.includes('stop')){
+        makeDance();
+        response = "I LOVE DANCING!"
+    }else if (message.includes('title ix')){
+        response = titleIX;
+    }
+    addText(response, "friend")
+
 }

@@ -33,3 +33,9 @@ body{
 p {
     font-family: "Comic Sans MS";
 }
+
+.yourText {
+    text-align: right;
+    padding-right: 10px;
+    background-color: white;
+}
