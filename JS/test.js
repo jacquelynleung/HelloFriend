@@ -46,6 +46,10 @@ function interpretText(){
         response = "I LOVE DANCING!"
     }else if (message.includes('title ix')){
         response = titleIX;
+    }else if ((message.includes('you') || message.includes('sleep') &&
+        !(message.includes('i ') || message.includes('i\'m')))){
+        response = 'Good night!';
+        change();
     }
     addText(response, "friend")
 
