@@ -5,12 +5,31 @@
     width: 50%;
 }
 
+
 .inline-parent{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
 }
+
+#messages{
+    padding: 25px 50px;
+}
+
+#message{
+    width: 80%;
+}
+#messageHolder{
+    background-color: aliceblue;
+    height: 300px;
+    overflow: scroll;
+}
+
 body{
     background-image: url(friendbkgrnd.png);
     background-size: cover;
 
+}
+
+p {
+    font-family: "Comic Sans MS";
 }

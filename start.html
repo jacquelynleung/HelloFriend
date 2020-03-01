@@ -6,23 +6,33 @@
 
 </head>
 <body>
-   <input type ="image" src="Images/HelloOffBlue.png" class = "center" name = "wakeUp" id="wakeUp"
-          onclick=change()>
-    <div id = "sleeping">
-        <img src="Images/SleepGif.gif" alt="Our sleeping friend" class ="center" style="width:500px;height:600px;">
+   <div class = "container">
+       <div class = "topLayer">
+        <input type ="image" src="Images/HelloOffBlue.png" class = "center" name = "wakeUp" id="wakeUp" onclick=change()
+        style="height: 25%; width: auto;">
+       </div>
+       <div class = "bottomLayer">
+         <div id = "sleeping">
+             <img src="Images/SleepGif.gif" alt="Our sleeping friend" class ="center" style="height: 75%; width: auto">
+         </div>
+
+    <div class = "inline-parent" id = "chatter">
+    <div id = "waked" class = "child">
+       <img src="Images/ourfriend.png" alt="Our wakeful friend" class ="center" id = "friend" style="height: 250px; width: auto">
     </div>
-   <div class = "inline-parent" id = "chatter">
-   <div id = "waked" class = "child">
-       <img src="Images/ourfriend.png" alt="Our wakeful friend" class ="center"
-            style="width:500px;height:500px;" id = "friend">
-   </div>
        <div id = "messages" class = "child">
+           <div id = "messageHolder">
+               <p>This is my text box</p>
+           </div>
            <div id = "content">
                <input type = "text" id = "message">
                <button type = "button" onclick=makeDance()></button>
            </div>
        </div>
+    </div>
+
    </div>
+       </div>
 <script src="JS/test.js"></script>
 </body>
 </html>
