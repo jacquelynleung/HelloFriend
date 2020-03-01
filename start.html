@@ -3,10 +3,26 @@
 <head>
     <title> Hello, Friend! </title>
     <link rel="stylesheet" type="text/css" href="start.css">
+
 </head>
 <body>
-<img src="Images/HelloOffBlue.png" alt="Our logo" class ="center" style="width:500px;height:200px;">
-<img src="Images/SleepGif.gif" alt="Our sleeping friend" class ="center" style="width:500px;height:600px;">
-</body>
+   <input type ="image" src="Images/HelloOffBlue.png" class = "center" name = "wakeUp" id="wakeUp"
+          onclick=change()>
+    <div id = "sleeping">
+        <img src="Images/SleepGif.gif" alt="Our sleeping friend" class ="center" style="width:500px;height:600px;">
+    </div>
+   <div class = "inline-parent" id = "chatter">
+   <div id = "waked" class = "child">
+       <img src="Images/ourfriend.png" alt="Our wakeful friend" class ="center"
+            style="width:500px;height:500px;" id = "friend">
+   </div>
+       <div id = "messages" class = "child">
+           <div id = "content">
+               <input type = "text" id = "message">
+               <button type = "button" onclick=makeDance()></button>
+           </div>
+       </div>
+   </div>
+<script src="JS/test.js"></script>
 </body>
 </html>
