@@ -5,7 +5,11 @@
     width: 50%;
 }
 
+.message {
+    margin: 0px auto;
+}
 body{
     background-image: url(friendbkgrnd.png);
     background-size: cover;
+
 }

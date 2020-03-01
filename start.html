@@ -3,10 +3,27 @@
 <head>
     <title> Hello, Friend! </title>
     <link rel="stylesheet" type="text/css" href="start.css">
+
 </head>
 <body>
-<img src="Images/HelloOffBlue.png" alt="Our logo" class ="center" style="width:500px;height:200px;">
-<img src="Images/SleepGif.gif" alt="Our sleeping friend" class ="center" style="width:500px;height:600px;">
-</body>
+   <input type ="image" src="Images/HelloOffBlue.png" class = "center" name = "wakeUp" id="wakeUp"
+          onclick="document.getElementById('wakeUp').src='/Images/HelloOnBlue.png'">
+    <!--<img src="Images/HelloOffBlue.png" alt="Our logo" class ="center" style="width:500px;height:200px;"> -->
+    <div id = "sleeping">
+        <img src="Images/SleepGif.gif" alt="Our sleeping friend" class ="center" style="width:500px;height:600px;">
+    </div>
+    <div id = "chatting">
+        <div id = "messages">
+            <div id = "content">
+            </div>
+            <div  class="center">
+            <form action = "">
+                <input type = "text" id = "message">
+                <button type = "button"></button>
+            </form>
+            </div>
+        </div>
+    </div>
+<script src="/JS/test.js"></script>
 </body>
 </html>
