@@ -2,6 +2,8 @@
 from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
 from chatterbot.trainers import ChatterBotCorpusTrainer
+
+from Chatbot.Training import trainers
 import os
 import nltk
 import ssl
@@ -18,7 +20,7 @@ import ssl
 #Create a chatbot
 bot = ChatBot('Friend')
 trainer = ChatterBotCorpusTrainer(bot)
-trainer.train('chatterbot.corpus.english')
+trainer.train("/Users/jleung00/Desktop/HelloFriend/Chatbot/Training/help.yml")
 
 #chat feature
 def main():
