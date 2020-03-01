@@ -46,14 +46,8 @@ function interpretText(){
         response = "I LOVE DANCING!"
     }else if (message.includes('title ix')){
         response = titleIX;
-    }else if (message.includes('sad') || message.includes('unhappy') || message.includes('depressed')){
+    }else if (message.includes('sad') || message.includes('unhappy')){
         response = level1Sad;
-        if (response.includes('joke')){
-            if(message.includes('yes')){
-                response = "I used to be addicted to the hokey pokey...but then I turned myself around";
-            }
-
-        }
     }else if (message.includes('hurt') || message.includes('pain') || message.includes('injured')){
         response = studentHealthCenter;
     }else if (message.includes('mental health') || message.includes('breakdown') ){
@@ -74,10 +68,6 @@ function interpretText(){
         response = "These place are MANDATORY reporters" + Reporting + "If you wish to remain anonymous, type anonymous";
     }else if (message.includes('anonymous')){
         response = "These are the places where you can anonymously report: " + NonReporting;
-    }else if (message.includes('harm') && message.includes('myself')){
-        response = NSPL
-    }else if (message.includes('Thanks') || message.includes('Thank you')){
-        response = "Of course! I am always here to talk to you!"
     }
     addText(response, "friend")
 
