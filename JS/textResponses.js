@@ -23,3 +23,5 @@ let Reporting = [titleIX, publicSafety];
 
 let NonReporting = [studentHealthCenter, counselingAndPsy, cares, afterHours, ombuds,
     centerForRegligion, centerForWomenGender];
+
+let NSPL = "National Suicide Prevention Hotline. Call at 1-800-273-8255. You Matter"
