@@ -1,5 +1,6 @@
 var isOn;
 isOn = "false";
+lastResponse = "";
 document.getElementById('chatter').style.display = 'none';
 
 function change() {
@@ -31,5 +32,4 @@ function makeDance(){
     element.appendChild(newMessage);
     element.scrollTop = element.scrollHeight;
     document.getElementById('message').value = "";
-
 }
