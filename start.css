@@ -6,5 +6,6 @@
 }
 
 body{
-    background-color: aliceblue;
+    background-image: url(friendbkgrnd.png);
+    background-size: cover;
 }
