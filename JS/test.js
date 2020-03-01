@@ -54,6 +54,20 @@ function interpretText(){
         response = counselingAndPsy;
     }else if (message.includes('stalking') || message.includes('domestic violence')){
         response = cares;
+    }else if (message.includes('too late') || message.includes('offices closed')){
+        response = afterHours;
+    }else if (message.includes('conflict') || message.includes('workplace')){
+        response = ombuds;
+    }else if (message.includes('men') && message.includes('uncomfortable')){
+        response = centerForWomenGender;
+    }else if (message.includes('religion') || message.includes('spiritual')){
+        response = centerForReligion;
+    }else if (message.includes('immediate danger') || message.includes('help')){
+        response = publicSafety;
+    }else if (message.includes('report') && message.includes('want')){
+        response = "These place are MANDATORY reporters" + Reporting + "If you wish to remain anonymous, type anonymous";
+    }else if (message.includes('anonymous')){
+        response = "These are the places where you can anonymously report: " + NonReporting;
     }
     addText(response, "friend")
 

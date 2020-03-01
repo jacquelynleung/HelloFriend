@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29048c85-1a9e-4a42-bbae-73f45d44cc15" name="Default Changelist" comment="Added some messages to the yml files">
+    <list default="true" id="29048c85-1a9e-4a42-bbae-73f45d44cc15" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/test.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,8 +32,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/JS/test.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="294">
-                  <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+                <state relative-caret-position="260">
+                  <caret line="68" selection-start-line="68" selection-end-line="68" />
                 </state>
               </provider>
             </entry>
@@ -48,7 +49,11 @@
         <leaf>
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/JS/textResponses.js">
-              <provider selected="true" editor-type-id="text-editor" />
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+                </state>
+              </provider>
             </entry>
           </file>
         </leaf>
@@ -81,6 +86,7 @@
         <option value="$PROJECT_DIR$/Chatbot/Training/health.yml" />
         <option value="$PROJECT_DIR$/Chatbot/Training/help.yml" />
         <option value="$PROJECT_DIR$/Chatbot/Training/positivity.yml" />
+        <option value="$PROJECT_DIR$/JS/textResponses.js" />
         <option value="$PROJECT_DIR$/JS/test.js" />
       </list>
     </option>
@@ -130,7 +136,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583063266320" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583064030486" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.flask.configuration.FlaskConfigurable" />
   </component>
@@ -286,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583055342466</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added message functions">
+      <created>1583063408390</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1583063408390</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -360,7 +373,8 @@
     <MESSAGE value="chat bot works, but is mean" />
     <MESSAGE value="added in shit" />
     <MESSAGE value="Added some messages to the yml files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added some messages to the yml files" />
+    <MESSAGE value="Added message functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added message functions" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Chatbot/style.css" />
@@ -388,8 +402,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JS/test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+        <state relative-caret-position="260">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
         </state>
       </provider>
     </entry>
