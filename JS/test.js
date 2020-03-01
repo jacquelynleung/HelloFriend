@@ -47,7 +47,7 @@ function interpretText(){
     }else if (message.includes('title ix')){
         response = titleIX;
     }else if (message.includes('sad') || message.includes('unhappy')){
-        response = level1Sad;
+        response = level1Sad.concat(" ");
     }else if (message.includes('hurt') || message.includes('pain') || message.includes('injured')){
         response = studentHealthCenter;
     }else if (message.includes('mental health') || message.includes('breakdown') ){
@@ -61,7 +61,7 @@ function interpretText(){
     }else if (message.includes('men') && message.includes('uncomfortable')){
         response = centerForWomenGender;
     }else if (message.includes('religion') || message.includes('spiritual')){
-        response = centerForReligion;
+        response = centerForRegligion;
     }else if (message.includes('immediate danger') || message.includes('help')){
         response = publicSafety;
     }else if (message.includes('report') && message.includes('want')){
@@ -76,6 +76,8 @@ function interpretText(){
         response = "Okay, i'll stop";
     }else if (message.includes('bye') && !(message.includes('end') || message.includes('forever'))){
         response = 'good bye'
+    }else if (message.includes('suicide') || message.includes('alone') || message.includes('end it')){
+        response = NSPL;
     }
     addText(response, "friend")
 

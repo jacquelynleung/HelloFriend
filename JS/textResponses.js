@@ -10,7 +10,7 @@ let afterHours = "After Hours Mental Health Hotline. Call at 1-855-436-1245";
 
 let ombuds = "Ombuds Office. Visit at SAU Room 1110";
 
-let centerForWomenGender = "Center for Women and Gender. Call at 585-475-5932. Their email is ritwom@rit.edu"
+let centerForWomenGender = "Center for Women and Gender. Call at 585-475-5932. Their email is ritwom@rit.edu";
 
 let centerForRegligion = "Center for Relgiious Life. Call at 585-475-5932. Their email is srl@rit.edu";
 
@@ -24,4 +24,4 @@ let Reporting = [titleIX, publicSafety];
 let NonReporting = [studentHealthCenter, counselingAndPsy, cares, afterHours, ombuds,
     centerForRegligion, centerForWomenGender];
 
-let NSPL = "National Suicide Prevention Hotline. Call at 1-800-273-8255. You Matter"
+let NSPL = "National Suicide Prevention Hotline. Call at 1-800-273-8255. You Matter";
