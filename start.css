@@ -5,8 +5,9 @@
     width: 50%;
 }
 
-.message {
-    margin: 0px auto;
+.inline-parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 body{
     background-image: url(friendbkgrnd.png);
