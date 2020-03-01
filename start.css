@@ -20,11 +20,16 @@
 }
 #messageHolder{
     background-color: aliceblue;
-    height: 100%;
+    height: 300px;
+    overflow: scroll;
 }
 
 body{
     background-image: url(friendbkgrnd.png);
     background-size: cover;
 
+}
+
+p {
+    font-family: "Comic Sans MS";
 }

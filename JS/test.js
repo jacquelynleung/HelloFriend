@@ -1,6 +1,7 @@
 var isOn;
 isOn = "false";
 document.getElementById('chatter').style.display = 'none';
+
 function change() {
     if (isOn === "false") {
         document.getElementById('wakeUp').src = "Images/HelloOnBlue.png";
@@ -19,7 +20,7 @@ function makeDance(){
     let message = document.getElementById('message').value;
     let element = document.getElementById('messageHolder');
     console.log(message);
-    if (message.includes('dance')){
+    if (message.toLowerCase().includes('dance')){
         console.log("should dance");
         document.getElementById('friend').src = "Images/dancer.gif";
     } else{
@@ -28,6 +29,7 @@ function makeDance(){
     let newMessage = document.createElement('p');
     newMessage.textContent = message;
     element.appendChild(newMessage);
+    element.scrollTop = element.scrollHeight;
     document.getElementById('message').value = "";
 
 }
