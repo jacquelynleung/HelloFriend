@@ -68,6 +68,14 @@ function interpretText(){
         response = "These place are MANDATORY reporters" + Reporting + "If you wish to remain anonymous, type anonymous";
     }else if (message.includes('anonymous')){
         response = "These are the places where you can anonymously report: " + NonReporting;
+    }else if (message.includes('sleep') && !(message.includes("i'm") || message.includes('i'))){
+        change()
+    }else if (message.includes('hi') || message.includes("good morning") || message.includes('hello')) {
+        response = "GOOD MORNING!";
+    } else if (message.includes('stop')){
+        response = "Okay, i'll stop";
+    }else if (message.includes('bye') && !(message.includes('end') || message.includes('forever'))){
+        response = 'good bye'
     }
     addText(response, "friend")
 
