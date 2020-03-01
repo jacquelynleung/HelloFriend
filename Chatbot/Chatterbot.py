@@ -21,6 +21,10 @@ import ssl
 bot = ChatBot('Friend')
 trainer = ChatterBotCorpusTrainer(bot)
 trainer.train("/Users/jleung00/Desktop/HelloFriend/Chatbot/Training/help.yml")
+trainer.train("/Users/jleung00/Desktop/HelloFriend/Chatbot/Training/greetings.yml")
+trainer.train("/Users/jleung00/Desktop/HelloFriend/Chatbot/Training/health.yml")
+trainer.train("/Users/jleung00/Desktop/HelloFriend/Chatbot/Training/positivity.yml")
+trainer.train("/Users/jleung00/Desktop/HelloFriend/Chatbot/Training/trivia.yml")
 
 #chat feature
 def main():
