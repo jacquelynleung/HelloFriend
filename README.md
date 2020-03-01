@@ -1,3 +1,3 @@
 # HelloFriend
-An online chatbot to anonymously report situtations that you can confide in.
+An online chatbot to anonymously report situations that you can confide in.
 start: ____
