@@ -16,7 +16,7 @@
 }
 
 #message{
-    width: 80%;
+    width: 100%;
 }
 #messageHolder{
     background-color: aliceblue;
@@ -38,4 +38,23 @@ p {
     text-align: right;
     padding-right: 10px;
     background-color: white;
+}
+
+button {
+    float: right;
+    height: 100%;
+    background-color: #829BC3; /* Green */
+    font-family: "Comic Sans MS";
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
 }

@@ -59,6 +59,8 @@ function interpretText(){
         response = 'Good night!';
         change();
     }
-    addText(response, "friend")
+    addText(response, "friend");
 
 }
+
+
